@@ -1,0 +1,60 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "terminal.integrated.defaultProfile.windows": "PowerShell7",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell7": {
+            "path": "C:\\Users\\haruhadj\\scoop\\shims\\pwsh.exe"
+        },
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "workbench.startupEditor": "none",
+    "code-runner.runInTerminal": true,
+    "editor.fontFamily": "FiraCode Nerd Font",         //, 'Courier New', monospace"
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 12,
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.linkedEditing": true,
+    "git.enabled": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.editorAssociations": {
+        "*.db": "default"
+    },
+    "vscord.app.privacyMode.enable": true,
+    "vscord.status.problems.enabled": false,
+    "vscord.status.details.text.notInFile": "browsing",
+    "vscord.status.showElapsedTime": false,
+    "vscord.status.state.text.editing": "Working on {file_name}{file_extension}",
+    "vscord.status.state.text.notInFile": "uwu",
+    "vscord.status.idle.enabled": false,
+    "vscord.status.idle.disconnectOnIdle": true,
+    "extensions.autoCheckUpdates": false,
+    "terminal.integrated.cwd": "${fileDirname}",
+    "terminal.integrated.cursorBlinking": true,
+    "fiveServer.injectBody": true,
+    "settings-repository.repository": "https://github.com/haruhadj/vscode-settings-repo.git",
+    "settings-repository.branch": "main"
+}
